@@ -1,4 +1,4 @@
-# Northstar Labs — AI B2B Sales Intelligence (Phase 3)
+# Northstar Labs — AI B2B Sales Intelligence 
 
 Prospect research → business-signal extraction → internal knowledge retrieval
 (RAG) → inferred problem evaluation → solution matching → outreach drafts,
