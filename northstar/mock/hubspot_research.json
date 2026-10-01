@@ -1,0 +1,152 @@
+{
+  "company": "HubSpot",
+  "company_url": "https://www.hubspot.com/",
+  "retrieved_date": "2026-09-24T00:00:00+00:00",
+  "notes": "SYNTHETIC DEMO DATA. This mock fixture exists solely so RESEARCH_MODE=mock can exercise the full pipeline offline. It does not describe real, verified events about this company and must never be presented to a user as factual research. Replace with live research (RESEARCH_MODE=live) for real outreach.",
+  "queries": [
+    "HubSpot recent news",
+    "HubSpot funding OR investment",
+    "HubSpot hiring OR careers",
+    "HubSpot expansion OR partnership",
+    "HubSpot product launch"
+  ],
+  "results": [
+    {
+      "title": "HubSpot announces AI-powered Breeze expansion across its customer platform",
+      "url": "https://www.hubspot.com/news/2026/08/breeze-expansion",
+      "content": "HubSpot announced an expansion of its AI-powered Breeze capabilities across its customer platform, including new agent tooling for sales teams. The company said the update is designed to help teams scale operations and integrate their customer data more tightly across marketing, sales, and service.",
+      "source_name": "hubspot.com",
+      "source_type": "COMPANY_NEWSROOM",
+      "published_date": "2026-08-19",
+      "retrieved_date": "2026-09-24T00:00:00+00:00",
+      "query": "HubSpot product launch"
+    },
+    {
+      "title": "Careers at HubSpot: open roles across Sales, Engineering and Customer Success",
+      "url": "https://www.hubspot.com/careers/open-roles",
+      "content": "HubSpot is hiring across multiple teams, including Sales, Engineering, and Customer Success. The company highlights a fast-growing global workforce and ongoing investment in product and go-to-market roles. New openings continue to be added as the business expands into new regions.",
+      "source_name": "hubspot.com",
+      "source_type": "COMPANY_CAREERS",
+      "published_date": "2026-09-01",
+      "retrieved_date": "2026-09-24T00:00:00+00:00",
+      "query": "HubSpot hiring OR careers"
+    },
+    {
+      "title": "HubSpot agrees to acquire a customer data startup to deepen its platform integrations",
+      "url": "https://techcrunch.com/2026/07/28/hubspot-acquisition-customer-data/",
+      "content": "HubSpot has agreed to acquire a customer data startup, a move the company says will deepen the integrations available on its platform. Analysts view the acquisition as an effort to grow its enterprise customer base and strengthen its competitive position in the CRM market.",
+      "source_name": "techcrunch.com",
+      "source_type": "NEWS_PUBLICATION",
+      "published_date": "2026-07-28",
+      "retrieved_date": "2026-09-24T00:00:00+00:00",
+      "query": "HubSpot funding OR investment"
+    },
+    {
+      "title": "HubSpot deepens partnership with a major cloud provider for AI workloads",
+      "url": "https://venturebeat.com/2026/06/15/hubspot-cloud-partnership-ai/",
+      "content": "HubSpot announced an expanded partnership with a major cloud provider to support its AI workloads. The partnership is expected to help the company scale its platform and release new technology features faster as customer demand grows.",
+      "source_name": "venturebeat.com",
+      "source_type": "NEWS_PUBLICATION",
+      "published_date": "2026-06-15",
+      "retrieved_date": "2026-09-24T00:00:00+00:00",
+      "query": "HubSpot expansion OR partnership"
+    },
+    {
+      "title": "Post from HubSpot leadership on the company's next phase of growth",
+      "url": "https://x.com/HubSpot/status/1800000000000000000",
+      "content": "A public post from HubSpot's official account discusses the company's next phase of growth, upcoming product releases, and continued hiring. Leadership framed the period as one of expansion and platform investment.",
+      "source_name": "x.com",
+      "source_type": "EXECUTIVE_POST",
+      "published_date": "2026-09-10",
+      "retrieved_date": "2026-09-24T00:00:00+00:00",
+      "query": "HubSpot recent news"
+    },
+    {
+      "title": "HubSpot platform overview: products for marketing, sales and service teams",
+      "url": "https://www.hubspot.com/products",
+      "content": "HubSpot offers a customer platform spanning marketing, sales, and service products. The company describes its technology as a way to help growing businesses scale, integrate their tools, and manage customer relationships in one place.",
+      "source_name": "hubspot.com",
+      "source_type": "COMPANY_WEBSITE",
+      "published_date": null,
+      "retrieved_date": "2026-09-24T00:00:00+00:00",
+      "query": "HubSpot recent news"
+    },
+    {
+      "title": "Why more enterprise sales teams are consolidating onto platform suites",
+      "url": "https://www.example-analyst.com/reports/platform-consolidation",
+      "content": "An industry write-up on the trend of growing sales teams consolidating their tooling onto platform suites. Vendors such as HubSpot and its competitors are cited as examples as companies scale their revenue operations.",
+      "source_name": "example-analyst.com",
+      "source_type": "OTHER",
+      "published_date": "2026-05-02",
+      "retrieved_date": "2026-09-24T00:00:00+00:00",
+      "query": "HubSpot recent news"
+    }
+  ],
+  "signals": [
+    {
+      "signal_type": "PRODUCT_LAUNCH",
+      "title": "HubSpot expands AI-powered Breeze across its platform",
+      "description": "The company announced an expansion of AI-powered Breeze capabilities, including new agent tooling aimed at sales teams. It frames the update around scaling operations and tighter data integration.",
+      "source_name": "hubspot.com",
+      "source_url": "https://www.hubspot.com/news/2026/08/breeze-expansion",
+      "published_date": "2026-08-19",
+      "retrieved_date": "2026-09-24T00:00:00+00:00",
+      "evidence": "HubSpot announced an expansion of its AI-powered Breeze capabilities across its customer platform, including new agent tooling for sales teams.",
+      "recency_score": 8.0,
+      "source_quality_score": 9.0,
+      "relevance_score": 9.0
+    },
+    {
+      "signal_type": "HIRING",
+      "title": "HubSpot hiring across Sales, Engineering and Customer Success",
+      "description": "HubSpot's careers page lists open roles across Sales, Engineering, and Customer Success as it invests in go-to-market and product teams.",
+      "source_name": "hubspot.com",
+      "source_url": "https://www.hubspot.com/careers/open-roles",
+      "published_date": "2026-09-01",
+      "retrieved_date": "2026-09-24T00:00:00+00:00",
+      "evidence": "HubSpot is hiring across multiple teams, including Sales, Engineering, and Customer Success.",
+      "recency_score": 10.0,
+      "source_quality_score": 8.0,
+      "relevance_score": 9.0
+    },
+    {
+      "signal_type": "ACQUISITION",
+      "title": "HubSpot agrees to acquire a customer data startup",
+      "description": "Reporting indicates HubSpot has agreed to acquire a customer data startup to deepen platform integrations and grow its enterprise base.",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/07/28/hubspot-acquisition-customer-data/",
+      "published_date": "2026-07-28",
+      "retrieved_date": "2026-09-24T00:00:00+00:00",
+      "evidence": "HubSpot has agreed to acquire a customer data startup, a move the company says will deepen the integrations available on its platform.",
+      "recency_score": 8.0,
+      "source_quality_score": 6.0,
+      "relevance_score": 9.0
+    },
+    {
+      "signal_type": "PARTNERSHIP",
+      "title": "HubSpot expands cloud partnership for AI workloads",
+      "description": "HubSpot announced an expanded partnership with a major cloud provider to support its AI workloads.",
+      "source_name": "venturebeat.com",
+      "source_url": "https://venturebeat.com/2026/06/15/hubspot-cloud-partnership-ai/",
+      "published_date": "2026-06-15",
+      "retrieved_date": "2026-09-24T00:00:00+00:00",
+      "evidence": "HubSpot announced an expanded partnership with a major cloud provider to support its AI workloads.",
+      "recency_score": 6.0,
+      "source_quality_score": 6.0,
+      "relevance_score": 8.0
+    },
+    {
+      "signal_type": "EXECUTIVE_STATEMENT",
+      "title": "HubSpot leadership signals growth phase and continued hiring",
+      "description": "A public post from HubSpot's official account discusses growth, upcoming releases, and hiring.",
+      "source_name": "x.com",
+      "source_url": "https://x.com/HubSpot/status/1800000000000000000",
+      "published_date": "2026-09-10",
+      "retrieved_date": "2026-09-24T00:00:00+00:00",
+      "evidence": "A public post from HubSpot's official account discusses the company's next phase of growth, upcoming product releases, and continued hiring.",
+      "recency_score": 10.0,
+      "source_quality_score": 7.0,
+      "relevance_score": 7.0
+    }
+  ]
+}
